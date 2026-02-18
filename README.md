@@ -332,7 +332,7 @@ Este proyecto fue inspirado por varias ideas y conversaciones de la comunidad de
 
 ### Comunidad y Conversaciones
 
-- **Discusiones en Twitter/X**: Las conversaciones sobre la necesidad de memoria persistente en IDEs y cómo manejar el límite de contexto inspiraron este proyecto.
+- **Discusiones en Twitter/X**: Las conversaciones sobre la necesidad de memoria persistente en IDEs y cómo manejar el límite de contexto inspiraron este proyecto. Especialmente la [discusión sobre memoria persistente en IDEs](https://x.com/G_Programming/status/2023656851531854236) que motivó la creación de este servidor MCP.
 - **Comunidad de desarrolladores**: Todas las personas que compartieron sus ideas, experiencias y necesidades sobre memoria persistente en IDEs.
 
 ### Agradecimientos
