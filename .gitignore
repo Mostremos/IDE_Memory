@@ -31,3 +31,14 @@ Thumbs.db
 mcp.json
 ide_memory.db
 ide_memory_metrics.db
+
+# Releases y ejecutables compilados (se suben a GitHub Releases, no al repo)
+IDE Memory releases/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+IDE_Memory.exe
+IDE_Memory
+IDE-Memory.exe
+IDE-Memory
