@@ -238,10 +238,21 @@ El servidor incluye un sistema de métricas opcional que registra:
 - Tasa de éxito/error
 - Estadísticas por herramienta
 
-Ver métricas:
+### Ver Métricas
+
+**Opción 1: Ejecutable simple (recomendado)**
+```bash
+IDE_Memory_Stats.exe --metrics-db ide_memory_metrics.db
+```
+
+Muestra las estadísticas en formato legible y amigable.
+
+**Opción 2: Comando del servidor (JSON)**
 ```bash
 IDE_Memory.exe --database ide_memory.db --stats
 ```
+
+Muestra las estadísticas en formato JSON para procesamiento automático.
 
 ## Desarrollo
 
@@ -250,7 +261,8 @@ IDE_Memory.exe --database ide_memory.db --stats
 ```
 IDE_Memory/
 ├── src/
-│   ├── main.rs          # Punto de entrada, manejo de argumentos CLI
+│   ├── main.rs          # Servidor MCP principal
+│   ├── stats.rs          # Ejecutable para mostrar métricas
 │   ├── memory.rs        # Lógica de memoria persistente (SQLite)
 │   ├── mcp_server.rs    # Implementación del protocolo MCP (JSON-RPC)
 │   └── metrics.rs       # Sistema de métricas
@@ -262,6 +274,10 @@ IDE_Memory/
 ├── LICENSE
 └── README.md
 ```
+
+**Ejecutables generados:**
+- `IDE_Memory.exe` - Servidor MCP principal
+- `IDE_Memory_Stats.exe` - Visualizador de métricas (formato legible)
 
 **Documentación**: Toda la documentación detallada está en el directorio [`docs/`](docs/README.md).
 
