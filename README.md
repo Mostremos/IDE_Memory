@@ -241,9 +241,15 @@ El servidor incluye un sistema de métricas opcional que registra:
 ### Ver Métricas
 
 **Opción 1: Ejecutable simple (recomendado)**
+
+Desde línea de comandos:
 ```bash
 IDE_Memory_Stats.exe --metrics-db ide_memory_metrics.db
 ```
+
+Desde el explorador (doble clic):
+- Usa `IDE_Memory_Stats_Launcher.bat` para abrir una nueva ventana de CMD
+- O ejecuta directamente `IDE_Memory_Stats.exe` (pausará automáticamente)
 
 Muestra las estadísticas en formato legible y amigable.
 

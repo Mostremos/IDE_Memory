@@ -88,5 +88,18 @@ fn main() -> anyhow::Result<()> {
         }
     }
 
+    // Pausar al final para mantener la ventana abierta (útil cuando se ejecuta desde doble clic)
+    // Solo pausar si hay una consola disponible (no pausar si se redirige la salida)
+    #[cfg(windows)]
+    {
+        use std::io::{self, Write};
+        if atty::is(atty::Stream::Stdout) {
+            print!("\nPresiona Enter para salir...");
+            io::stdout().flush().ok();
+            let mut buffer = String::new();
+            io::stdin().read_line(&mut buffer).ok();
+        }
+    }
+
     Ok(())
 }
