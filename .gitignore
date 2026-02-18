@@ -1,0 +1,33 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Bases de datos de prueba y desarrollo
+*.db
+*.db-shm
+*.db-wal
+test*.db
+*_test.db
+
+# Archivos temporales
+*.tmp
+*.log
+*.pdb
+*.d
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local (no subir)
+mcp.json
+ide_memory.db
+ide_memory_metrics.db
