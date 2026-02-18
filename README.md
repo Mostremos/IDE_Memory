@@ -254,10 +254,16 @@ IDE_Memory/
 │   ├── memory.rs        # Lógica de memoria persistente (SQLite)
 │   ├── mcp_server.rs    # Implementación del protocolo MCP (JSON-RPC)
 │   └── metrics.rs       # Sistema de métricas
+├── docs/                 # Documentación completa del proyecto
+│   ├── README.md        # Índice de documentación
+│   ├── CURSOR_CONFIG.md # Configuración en Cursor
+│   └── ...              # Otras guías y documentación
 ├── Cargo.toml
 ├── LICENSE
 └── README.md
 ```
+
+**Documentación**: Toda la documentación detallada está en el directorio [`docs/`](docs/README.md).
 
 ### Ejecutar en modo desarrollo
 
@@ -306,7 +312,11 @@ Verifica que estés usando el modo `stdio` (default). El modo HTTP aún no está
 
 ### Error de autenticación en GitHub
 
-Si estás clonando el repositorio, asegúrate de tener configurado Git correctamente. Ver `CONFIGURAR_GIT_CURSOR.md` para más detalles.
+Si estás clonando el repositorio, asegúrate de tener configurado Git correctamente. Ver [`docs/CONFIGURAR_GIT_CURSOR.md`](docs/CONFIGURAR_GIT_CURSOR.md) para más detalles.
+
+### Más Documentación
+
+Consulta la [documentación completa](docs/README.md) para guías detalladas sobre configuración, desarrollo y solución de problemas.
 
 ## Contribuir
 
