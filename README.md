@@ -322,9 +322,28 @@ Las contribuciones son bienvenidas. Por favor:
 
 Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## Inspiración
+## Inspiración y Agradecimientos
 
-Este proyecto está inspirado en [Engram](https://github.com/Gentleman-Programming/engram), adaptado para funcionar como servidor MCP independiente usando Rust y SQLite.
+Este proyecto fue inspirado por varias ideas y conversaciones de la comunidad de desarrolladores:
+
+### Inspiración Principal
+
+- **[Engram](https://github.com/Gentleman-Programming/engram)**: Concepto original de memoria persistente para IDEs. Este proyecto adapta la idea para funcionar como servidor MCP independiente usando Rust y SQLite.
+
+### Comunidad y Conversaciones
+
+- **Discusiones en Twitter/X**: Las conversaciones sobre la necesidad de memoria persistente en IDEs y cómo manejar el límite de contexto inspiraron este proyecto.
+- **Comunidad de desarrolladores**: Todas las personas que compartieron sus ideas, experiencias y necesidades sobre memoria persistente en IDEs.
+
+### Agradecimientos
+
+Agradecemos a:
+- Todos los desarrolladores que comparten conocimiento públicamente
+- La comunidad open source que hace crecer el ecosistema
+- Quienes discuten y proponen soluciones a problemas comunes
+- Los creadores de herramientas que inspiran nuevas implementaciones
+
+**Gracias por hacer crecer la comunidad y compartir conocimiento. Este proyecto existe gracias a esas conversaciones e ideas compartidas.**
 
 ## Autor
 
